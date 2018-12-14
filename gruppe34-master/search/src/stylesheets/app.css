@@ -1,0 +1,123 @@
+body {
+  min-height: 100%;
+  background-color: #0c104a;
+}
+.site {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+}
+
+.header {
+  background-color: #0c104a;
+  box-sizing: border-box;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-text {
+  width: 50%;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: gold;
+}
+
+.container {
+  background-color: #0c104a;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.paginator {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search_box {
+  width: 40%;
+  min-width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  display: flex;
+}
+
+.search_bar {
+  width: 100%;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: whitesmoke;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+.form {
+  width: 100%;
+  height: 38px;
+}
+
+.form_input:focus {
+  outline: None;
+
+}
+
+.form_input {
+  width: 100%;
+  height: 38px;
+  font-size: 16px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: None;
+  padding:10px;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.search_button {
+  width: 50px;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search_button:hover {
+  background-color:#d3d3d3;
+}
+.search_button:active {
+  background-color: gold;
+}

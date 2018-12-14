@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test a movieItem component renders without error 1`] = `
+<div
+  className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1 movieItem"
+  data-cy="movie_item"
+  id="Shawshank"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(228, 228, 228)",
+    }
+  }
+>
+  <div
+    className="MuiCardContent-root-29"
+    data-cy="card"
+  >
+    <p
+      className="MuiTypography-root-30 MuiTypography-body1-39"
+      data-cy="title"
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Shawshank
+    </p>
+    <h6
+      className="MuiTypography-root-30 MuiTypography-subtitle1-48 MuiTypography-colorTextSecondary-63"
+      style={
+        Object {
+          "fontSize": "13px",
+        }
+      }
+    >
+      1989
+    </h6>
+  </div>
+</div>
+`;

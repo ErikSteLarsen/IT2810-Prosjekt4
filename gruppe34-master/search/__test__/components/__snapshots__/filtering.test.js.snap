@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without error 1`] = `
+<div
+  className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1 infoBox"
+  style={
+    Object {
+      "backgroundColor": "#fafafa",
+      "height": "auto",
+    }
+  }
+>
+  <div
+    className="MuiCardContent-root-29 cardClass"
+  >
+    <div
+      className="filteringContainer"
+    >
+      <div
+        className="MuiFormControl-root-30 MuiFormControl-marginNormal-31"
+        style={
+          Object {
+            "marginLeft": "15px",
+            "marginRight": "15px",
+          }
+        }
+      >
+        <label
+          className="MuiFormLabel-root-41 MuiInputLabel-root-34 MuiInputLabel-formControl-35 MuiInputLabel-animated-38"
+          data-shrink={false}
+          htmlFor="standard-select-currency-native"
+        >
+          Select sorting
+        </label>
+        <div
+          className="MuiInputBase-root-68 MuiInput-root-55 MuiInput-underline-59 MuiInputBase-formControl-69 MuiInput-formControl-56"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiSelect-root-48"
+          >
+            <select
+              aria-invalid={false}
+              className="MuiSelect-select-49 MuiInputBase-input-78 MuiInput-input-63"
+              disabled={false}
+              id="standard-select-currency-native"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+            >
+              <option
+                value="Default_sorting"
+              >
+                Sort by ranking
+              </option>
+              <option
+                value="Title_ASC"
+              >
+                Title ASC
+              </option>
+              <option
+                value="Title_DESC"
+              >
+                Title DESC
+              </option>
+              <option
+                value="Year_ASC"
+              >
+                Year ASC
+              </option>
+              <option
+                value="Year_DESC"
+              >
+                Year DESC
+              </option>
+            </select>
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-85 MuiSelect-icon-54"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiFormControl-root-30 MuiFormControl-marginNormal-31"
+        data-cy="sort_from_year"
+        style={
+          Object {
+            "marginLeft": "15px",
+            "marginRight": "15px",
+            "width": "100px",
+          }
+        }
+      >
+        <label
+          className="MuiFormLabel-root-41 MuiInputLabel-root-34 MuiInputLabel-formControl-35 MuiInputLabel-animated-38 MuiInputLabel-shrink-37"
+          data-shrink={true}
+          htmlFor="standard-number"
+        >
+          From year:
+        </label>
+        <div
+          className="MuiInputBase-root-68 MuiInput-root-55 MuiInput-underline-59 MuiInputBase-formControl-69 MuiInput-formControl-56"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input-78 MuiInput-input-63 MuiInputBase-inputType-81 MuiInput-inputType-66"
+            disabled={false}
+            id="standard-number"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="1900"
+            required={false}
+            type="number"
+          />
+        </div>
+      </div>
+      <div
+        className="MuiFormControl-root-30 MuiFormControl-marginNormal-31"
+        data-cy="sort_to_year"
+        style={
+          Object {
+            "marginLeft": "15px",
+            "marginRight": "15px",
+            "width": "100px",
+          }
+        }
+      >
+        <label
+          className="MuiFormLabel-root-41 MuiInputLabel-root-34 MuiInputLabel-formControl-35 MuiInputLabel-animated-38 MuiInputLabel-shrink-37"
+          data-shrink={true}
+          htmlFor="standard-number2"
+        >
+          To year:
+        </label>
+        <div
+          className="MuiInputBase-root-68 MuiInput-root-55 MuiInput-underline-59 MuiInputBase-formControl-69 MuiInput-formControl-56"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            className="MuiInputBase-input-78 MuiInput-input-63 MuiInputBase-inputType-81 MuiInput-inputType-66"
+            disabled={false}
+            id="standard-number2"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="2018"
+            required={false}
+            type="number"
+          />
+        </div>
+      </div>
+      <button
+        className="MuiButtonBase-root-120 MuiButton-root-94 MuiButton-text-96 MuiButton-flat-99"
+        data-cy="update_filter_btn"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#f1f1f1",
+            "border": "1px solid",
+            "borderColor": "grey",
+            "borderRadius": "10px",
+            "height": "40px",
+            "marginLeft": "15px",
+            "marginRight": "15px",
+            "width": "90px",
+          }
+        }
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="MuiButton-label-95"
+        >
+          UPDATE
+        </span>
+        <span
+          className="MuiTouchRipple-root-123"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

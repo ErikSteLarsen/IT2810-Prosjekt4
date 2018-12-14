@@ -1,0 +1,9 @@
+.searchResult {
+  margin-top: 75px;
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

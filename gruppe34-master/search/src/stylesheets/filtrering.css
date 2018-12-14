@@ -1,0 +1,57 @@
+/**
+ *
+ * @author Erik
+ */
+
+.infoBox {
+  min-width: 200px;
+  max-width: 700px;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sortBy {
+  margin-right: 1%;
+}
+
+.cardClass {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filterdiv {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterboxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterstyle {
+  margin-left: 5%;
+  margin-right: 1%;
+}
+
+.filteringContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
